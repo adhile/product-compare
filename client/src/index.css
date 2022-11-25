@@ -1,0 +1,7 @@
+/*CSS properties for index.html*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}

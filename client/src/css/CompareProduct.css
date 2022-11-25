@@ -1,0 +1,42 @@
+/*CSS properties for CompareProduct.jsx file*/
+
+
+.comapre-card {
+  font-family: "Inter", sans-serif;
+  background: #23252c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 504px;
+  height: 273px;
+  margin: 50px auto;
+  padding: 10px 30px;
+  box-shadow: 5px 5px 3px rgb(105, 101, 101);
+  color: #ffffff;
+  border-radius: 5px;
+}
+.compare--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare--title {
+  margin-bottom: 62px;
+}
+.form---items {
+  margin: 10px 0px;
+}
+.proId1,
+.proId2 {
+  margin-bottom: 0px;
+}
+.error--message {
+  color: #f3bf99;
+}
+.submitC {
+  font-size: 16px;
+  width: 101px;
+  margin: 18px 0px;
+}

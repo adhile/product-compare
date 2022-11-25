@@ -1,0 +1,41 @@
+/*CSS properties for Result.jsx file*/
+
+.product-card {
+  font-family: "Inter", sans-serif;
+  background: #23252c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 215px;
+  margin: 5px 28px;
+  padding: 0px 0px 10px 0px;
+  box-shadow: 5px 5px 3px rgb(105, 101, 101);
+  color: #ffffff;
+  border-radius: 5px;
+}
+.card--element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+.card-product--id {
+  height: 123px;
+
+  width: 100%;
+  background: black;
+  color: white;
+}
+#card-product--id {
+  margin: 22px 82px;
+}
+#card-product--name {
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card-product--rating {
+  margin-left: 20px;
+}
