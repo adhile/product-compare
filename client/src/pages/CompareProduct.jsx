@@ -15,7 +15,6 @@ export default function () {
   };
   //fetch response from server based on request payload by form submission
   const onSubmit = async (values) => {
-    console.log(values);
     const response = await fetch("http://localhost:3000/api/compare", {
       method: "POST",
       headers: {

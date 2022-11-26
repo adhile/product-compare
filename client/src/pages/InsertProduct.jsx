@@ -24,6 +24,14 @@ export default function () {
   const handleRating = (number) => {
     setRating(number);
   };
+//function to reset form fields
+  const reset = () => { 
+    let values = formik.values;
+    values.id = ''
+    values.name = ''
+    values.price = ''
+    setRating(0)
+  }
   //function to fetch api response based on the given payload from the server by form submission
   const onSubmit = async (values) => {
     console.log(rating);
@@ -43,6 +51,7 @@ export default function () {
     if (data) {
       console.log(data);
       alert("Your Product Added");
+      reset()
     } else if (!data) {
       console.log(data);
       alert("sorry,product Id already Exist.Please enter a valid product Id");
