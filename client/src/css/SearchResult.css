@@ -1,0 +1,50 @@
+/*CSS for SearchResult.jsx*/
+
+.card-search {
+  /* border: 2px solid red; */
+  width: 337px;
+  height: 348px;
+  background-color: #23252c;
+  color: white;
+  border-radius: 4px;
+  margin: 0px 20px;
+}
+.card-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 93px auto 0px auto;
+}
+.card-add--img {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  /* border: 2px solid black; */
+}
+.card--company {
+  margin-top: 140px;
+  font-size: 26px;
+  padding: 0px 6px;
+}
+.card--headline {
+  margin-top: 7px;
+  font-size: 17px;
+  padding: 0px 6px;
+}
+.card--text {
+  margin-top: 12px;
+  font-size: 12px;
+  padding: 0px 6px;
+}
+.card--CTA {
+  margin: 0px 0px 0px 3px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.card--image {
+  position: absolute;
+  width: 337px;
+  height: 137px;
+}

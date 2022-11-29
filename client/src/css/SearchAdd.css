@@ -1,0 +1,19 @@
+/*CSS for SearchAdd.jsx*/
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-title {
+  margin-bottom: 33px;
+  margin-top: 19px;
+}
+.search--button {
+  margin-left: 7px;
+}
+.search--bar {
+  height: 38px;
+  padding-left: 9px;
+}
