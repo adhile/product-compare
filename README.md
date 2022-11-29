@@ -8,4 +8,7 @@ MERN project
 2.*compare products*
  -- find matching products from database based on given id's
  --result include product id,product name,price and rating(1-5)
+ 
+ 3. *product search added*
+   --search a keyword ,it will show the adds matching with keyword entered.
 
